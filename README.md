@@ -13,7 +13,7 @@ How the app works...<br/>
 * Copy email to clipboard when the email icon is clicked.
 * Click on font awesome icons to be directed to third party sites which relate the portfolios creator.
 (these functions are also available in page footers)
-* View an ‘Home’ page
+* View a ‘Home’ page
 * Toggle background page colour using ‘Light On/ Light Off’ button to change home page background color.
 * View an ‘About’ page
 * Listen to a thirty second song previews of a Spotify playlist by clicking the ‘play’ button on the spotify widget.
@@ -30,7 +30,7 @@ External components include:<br />
  * https://www.npmjs.com/package/react-spotify-widgets
 
 
-
+- - - -
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
