@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,800,900|Roboto');
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background:#2b2b2b;
+    color: #fffff;
+
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    border:none;
+    color:white;
+}
+.dark{
+ background-color: #2b2b2b;
+ color: white;
+ height: 900px;
+
+
+
+}
+.light{
+    color: #2b2b2b;
+    background-color: #C8BC9D;
+    height: 900px;
+
+
+}
+.arrow-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 20px;
+    width: 90px;
+}
+.arrow-right::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 85px;
+    margin-top: -5px;
+    margin-left: -5px;
+    width: 10px;
+    height: 10px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    transform: rotate(-45deg);
+    transition: 160ms ease-out 80ms;
+}
+.arrow-right::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    width: 90px;
+    height: 1px;
+    background-color: white;
+    transition: 160ms ease-out 80ms;
+}
+.arrow-right:hover::before {
+  transform: translateX(10px) rotate(-45deg);
+}
+.arrow-right:hover::after {
+    width: 100px;
+}
+a.navStyles{
+     background-color:#2b2b2b;
+     color:#ffffff;
+}
+a:hover.navStyles{
+     background-color:#2b2b2b;
+     color:#ffffff;
+
+}
+.navTopPad{
+margin-top: 40px;
+}
+a:hover.navLinkStyles{
+     background-color:#2b2b2b;
+     color:#ffffff;
+     border-bottom: 3px solid #FD4732;
+     font-weight: bold;
+}
+a.aboutMe{
+ color:white;
+ font-family: 'Montserrat', sans-serif;
+ margin-left: 328px;
+}
+.aboutBtn{
+padding-left: 400px;
+}
+.moreInfo{
+    background-color:#2b2b2b;
+    color:#ffffff;
+    border-bottom: 1px solid #FD4732;
+    float:right;
+}
+
+a.white{
+     color:white;
+
+}
+a{
+     color:white;
+
+}
+.clippy{
+padding-top: -12px;
+}
+.imgStyle{
+  float: right;
+}
+.container{
+    background-color: #2b2b2b;
+    height:100%;
+}
+.secStyle {
+  width: 80%;
+  height: 800px;
+  background: #2b2b2b;
+
+}
+.sideSection {
+  width: 20%;
+  height: 800px;
+  background-Color:#FD4732;
+
+}
+hr{
+ color: #FD4732;
+ background-color:#FD4732;
+ width: 100px;
+ border:4px;
+
+}
+.label{
+color:white;
+}
+.cc{
+font-size: 40px;
+float:center;
+}
+.line{
+    color: #FD4732;
+    border-width:10px;
+}
+.emc{
+font-size: 60px;
+}
+.homeCont{
+ margin-top: 0px;
+height: 900px;
+}
+.homeText{
+padding-left: 250px;
+padding-top: 280px;
+}
+.projCont{
+ height: 1000px;
+
+}
+
+.navStyles{
+ color:white;
+ text-decoration: none;
+}
+
+.menuIcons{
+    display: inline-block;
+    padding-top: 0px;
+    padding-right: 20px;
+    color: white;
+}
+.card,.card-header,.card-header-title{
+    margin-top: 100px;
+    background-color:#2b2b2b;
+    color: white;
+    border:0.2px solid;
+}
+.introP{
+    color: white;
+    height: 400px;
+    width: 600px;
+}
+.labelIcon{
+ color: white;
+/*font-weight: light;*/
+}
+a.repoSec{
+color:#2b2b2b;}
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white ;
+
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #white;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background:white;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+.topPadding{
+   padding-top: 20px;
+}
+/* General sidebar styles */
+.bm-menu {
+  background: #FD4732;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.3em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #2d2d2d;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #FD4732;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  padding: 0.5em;
+  color:white;
+
+
+}
+/* Individual item */
+a:hover.bm-item {
+font-weight:550;
+color:white;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
