@@ -4,11 +4,11 @@ Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md).
 ## React Portfolio
 This is a Portfolio website created using React a JavaScript library. <br/>
-#The Problem <br/>
+# The Problem <br/>
 Students want to be able to display their work and the process’s they took to get to a particular solution.<br/>
 The extent of this information does not fit onto a two page CV. Excess time is spent sending on links and additional information about projects to potential employers/recruiters.<br/>
 <br/><br/>
-#The Solution <br/>
+# The Solution <br/>
 A portfolio website.An easily accessible website in which contact information, third party website links and works are all clearly defined in one place.  <br/>
 How the app works...<br/>
 * Users can:<br/>
